@@ -1,0 +1,12 @@
+.DS_Store
+
+# Ignore Jupyter Notebook files
+.ipynb_checkpoints
+
+# Ignore images
+test/*
+train/*
+
+# Ignore model train output/images
+train_models/*
+!train_models/*.ipynb
